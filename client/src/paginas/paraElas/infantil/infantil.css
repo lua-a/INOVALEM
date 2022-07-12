@@ -1,0 +1,247 @@
+.containerInfantil {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logoParaelasinfantil {
+    width: 10%;
+    left: 20px;
+    display: flex;
+    padding: 15px;
+    position: absolute;
+    top: 15px;
+}
+
+
+
+.secao-um-infantil {
+    background-image: none;
+    min-height: 905px;
+}
+
+.secao-um-infantil {
+    min-height: 421px;
+    height: auto;
+    padding: 24px 0;
+}
+
+.secao-um-infantil {
+    letter-spacing: 2px;
+    font-size: 15px;
+
+}
+
+.conteudo-infantil {
+    width: 1140px;
+    margin: 41px auto 60px;
+}
+
+
+.tituloAreaInfantil {
+    margin-top: 30px;
+    font-size: 50px;
+    /* font-weight: 600; */
+    letter-spacing: 2;
+    color: var(--roxo);
+    text-align: center;
+}
+
+.titulo-inicial-infantil {
+    font-size: 20px;
+    /* font-weight: 400; */
+    color: var(--roxo);
+}
+
+.corDivertido {
+    color: var(--laranja);
+}
+
+.eqp-inovalem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.txt-explicacao-infantil {
+    font-weight: 600;
+    line-height: 1.8;
+    text-align: center;
+    color: var(--roxo);
+}
+
+.txtInovalemCor {
+    color: var(--laranja);
+}
+
+.txtMulheresCor {
+    color: var(--laranja)
+}
+
+.txtMaesCor {
+    color: var(--laranja);
+}
+
+.txtFilho {
+    color: var(--laranja);
+}
+
+
+.container-img-infantil {
+    border-radius: 20px;
+}
+
+.img-infantil {
+    width: 600px;
+}
+
+
+
+.subtitulo-como {
+    line-height: 1.8;
+    text-align: center;
+    color: var(--roxo);
+}
+
+.TxtLocalizacao {
+
+    font-size: 20px;
+    text-align: center;
+    color: var(--roxo);
+}
+
+.txtEspaco {
+    color: var(--laranja);
+}
+
+.cards-atv-recreativa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-sesc {
+    background-color: var(--branco);
+    width: 180px;
+    height: 120px;
+    border-radius: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 10px;
+
+
+}
+
+
+
+
+.cards-infantil {
+    background: var(--branco);
+    width: 180px;
+    height: 120px;
+    border-radius: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.cards-infantil:hover {
+
+    background: rgba(0, 0, 0, 0.116);
+    cursor: pointer;
+    opacity: 1;
+    transition: all ease 0.2s;
+
+}
+
+.card-img-infantil {
+    width: 130px;
+    border-radius: 10px;
+}
+
+.input-localizacao {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.localizacao {
+    font-size: 15px;
+    color: var(--azul);
+    line-height: 1.2;
+    border: none;
+    display: block;
+
+    width: 100%;
+    height: 45px;
+    background-color: var(--branco);
+    padding: 0 5px;
+    margin-top: 20px;
+}
+
+.LocInput {
+    outline: none;
+}
+
+.containerTesteInfantil {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contaninerBusca {
+    margin: 0 auto;
+    background-color: var(--branco);
+    border-radius: 30px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.busca {
+    color: var(--roxo);
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 500px;
+    padding: 10px;
+    font-size: 16px;
+
+}
+
+.iconLupa {
+    width: 20px;
+    padding: 2px;
+}
+
+.mapaInfantil {
+    display: block;
+    margin: 0px auto;
+    border-radius: 20px;
+    width: 900px;
+    margin-top: 20px;
+}
+
+.iframeMaps {
+    display: flex;
+    justify-content: center;
+}
+
+.iframeInfantil {
+    width: 70%;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 30px;
+}

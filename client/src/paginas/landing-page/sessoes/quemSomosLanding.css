@@ -1,0 +1,65 @@
+.section-quemSomos-landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.div-quemSomos-landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titulo-quemSomos-landing {
+    font-size: 55px;
+    color: var(--azul);
+}
+
+.span-titulo-quemSomos-landing {
+    color: var(--laranja);
+}
+
+.p-quemSomos-landing {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: var(--preto);
+    font-size: 18px;
+}
+
+.div-socialMedia-quemSomos-landing {
+    display: flex;
+    gap: 26px;
+    margin-top: 20px;
+}
+
+.div-socialMedia-quemSomos-landing img {
+    width: 30px;
+}
+
+.blocoSimbolo-quemSomos-landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    margin-top: 60px;
+    flex-direction: column;
+}
+
+
+.img-simbolo-quemSomos-landing {
+    width: 90px;
+    opacity: 0.3;
+}
+
+.img-simbolo-quemSomos-landing:nth-child(1) {
+    opacity: 0.9;
+}
+
+.img-simbolo-quemSomos-landing:nth-child(2) {
+    opacity: 0.4;
+}
+

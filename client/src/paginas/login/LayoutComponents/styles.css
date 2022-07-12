@@ -1,0 +1,31 @@
+.container-geral {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-login {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  padding: 15px;
+
+  background-color: var(--branco);
+
+}
+
+
+.com-login {
+  width: 690px;
+  height: 600px;
+  background-color: var(--branco);
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 77px 55px 33px 55px;
+  box-shadow: -15px -15px 0px var(--laranja),
+    15px 15px 0px var(--azul);
+}

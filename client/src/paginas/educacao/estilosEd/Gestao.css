@@ -1,0 +1,113 @@
+.secaoTxtGestão {
+    background-image: none;
+}
+
+.txtBemVindoGestao {
+    height: auto;
+}
+
+.txtBemVindoGestao {
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+.txtBemVindoGestao {
+    margin-top: 15px;
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 2;
+    color: var(--azul);
+    text-align: center;
+}
+
+.ConteudoGestão {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+}
+
+.TituloGestao h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    padding-bottom: 0;
+    color: var(--azul);
+    position: relative;
+    z-index: 2;
+}
+
+.TituloGestao h2:hover {
+    color: var(--laranja);
+    cursor: pointer;
+
+    opacity: 1;
+    transition: all ease 0.5s;
+    filter: none;
+    transform: scale(1.0);
+}
+
+.ContainerGestao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.CardDeGestao {
+    text-align: center;
+    transition: all ease-in-out 0.3s;
+    border-radius: 10px;
+    margin-top: 10px;
+    border-radius: 10px 10px 1px 0px;
+}
+
+.CardDeGestao:hover {
+    cursor: pointer;
+    opacity: 1;
+    transition: all ease 0.2s;
+    filter: none;
+    transform: scale(1.1);
+}
+
+
+.ImagemDoCardGestao {
+    position: relative;
+    height: 120px;
+    width: 240px;
+    border-radius: 12px 12px 12px 12px;
+}
+
+.ContainerImg {
+    display: flex;
+    justify-content: center;
+}
+
+.separacao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+
+}
+
+.separacao {
+
+    display: flex;
+
+}
+
+iframe {
+    width: auto;
+    height: 200px;
+}

@@ -1,0 +1,123 @@
+.main-landing {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-cta {
+    background: var(--branco);
+    height: 100vh;
+    display: flex;
+    padding: 40px;
+}
+
+.div-cta {
+    position: absolute;
+}
+
+.titulo-cta {
+    font-size: 60px;
+    color: var(--azul);
+}
+
+.span-titulo-cta {
+    color: var(--laranja);
+}
+
+.div-cta p {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.div-imagem-cta {
+    position: absolute;
+    right: 1px;
+}
+
+.div-imagem-cta img {
+    bottom: 12px;
+    width: 710px;
+}
+
+.div-button-cta {
+    margin-top: 30px;
+    display: flex;
+    gap: 26px;
+}
+
+.button-cta {
+    background: none;
+    border: 1px solid var(--laranja);
+    font-weight: 550;
+    color: var(--laranja);
+    padding: 8px 30px;
+    border-radius: 60px;
+
+}
+
+.button-cta2 {
+    background: none;
+    border: 1px solid var(--laranja);
+    font-weight: 550;
+    color: var(--laranja);
+    padding: 8px 30px;
+    border-radius: 60px;
+}
+
+.button-cta2:hover {
+    cursor: pointer;
+    background-color: var(--laranja);
+    color: var(--branco);
+
+}
+
+.button-cta:nth-child(1) {
+    background: var(--laranja);
+    color: var(--branco);
+}
+
+.button-cta:hover {
+    background: var(--laranja);
+    color: var(--branco);
+    cursor: pointer;
+}
+
+@media (min-width: 370px) and (max-width: 1080px) {
+
+    .section-cta {
+        background: var(--branco);
+        height: 290px;
+        width: 100%;
+        display: flex;
+        padding: 40px;
+    }
+
+    .div-imagem-cta img {
+        width: 320px;
+    }
+
+    .titulo-cta {
+        font-size: 20px;
+    }
+
+    .div-cta p {
+        font-size: 10px;
+        margin-top: 30px;
+
+    }
+
+    .main-landing {
+        overflow-x: hidden;
+    }
+
+    button {
+        width: 80px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+    .button-cta {
+        padding: 8px 10px;
+
+    }
+}

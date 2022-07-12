@@ -1,0 +1,118 @@
+.secaoTxtConfeitaria {
+    background-image: none;
+}
+
+.txtBemVindoConfeitaria {
+    height: auto;
+}
+
+.txtBemVindoConfeitaria {
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+.txtBemVindoConfeitaria {
+    margin-top: 15px;
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 2;
+    color: var(--azul);
+    text-align: center;
+}
+
+
+.containerExplicacaoConfeitaria {
+    width: auto;
+}
+
+.containerExplicacaoConfeitaria {
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    display: flex;
+}
+
+.txtexpliConfeitaria {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--laranja);
+    padding-left: 10px;
+}
+
+
+.ConteudoConfeitaria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+}
+
+.TituloConfeitaria h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    padding-bottom: 0;
+    color: var(--azul);
+}
+
+.TituloConfeitaria h2:hover {
+    color: var(--laranja);
+    cursor: pointer;
+    opacity: 1;
+    transition: all ease 0.5s;
+    filter: none;
+    transform: scale(1.0);
+}
+
+.ContainerConfeitaria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.CardDeConfeitaria {
+    text-align: center;
+    transition: all ease-in-out 0.3s;
+    border-radius: 10px;
+    margin-top: 10px;
+    border-radius: 10px 10px 1px 0px;
+}
+
+.CardDeConfeitaria:hover {
+    cursor: pointer;
+    opacity: 1;
+    transition: all ease 0.2s;
+    filter: none;
+    transform: scale(1.1);
+    width: 300px;
+}
+
+
+.ConteudoConfeitaria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+}
+
+.imgReceita {
+    height: 150px;
+    width: 220px;
+    border-radius: 12px 12px 12px 12px;
+}
+
+.ContainerImg {
+    margin: 10px;
+
+}

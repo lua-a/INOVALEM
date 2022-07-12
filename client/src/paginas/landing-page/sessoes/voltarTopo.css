@@ -1,0 +1,9 @@
+.divVoltarTopo {
+    background-color: var(--laranja);
+}
+
+.imgVoltarTopo {
+    position: absolute;
+    right: 60px;
+    width: 60px;
+}

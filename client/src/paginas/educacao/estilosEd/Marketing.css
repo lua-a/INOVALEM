@@ -1,0 +1,121 @@
+.secaoTxtMarketing {
+    background-image: none;
+}
+
+.txtBemVindoMarketing {
+    height: auto;
+    padding: 24px 0;
+}
+
+.txtBemVindoMarketing {
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+.txtBemVindoMarketing {
+    margin-top: 15px;
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 2;
+    color: var(--azul);
+    text-align: center;
+}
+
+.ConteudoMarketing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+}
+
+.ContainerMarketing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.ContainerDivulgação {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    width: auto;
+    height: auto;
+}
+
+.TituloMarketing h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    padding-bottom: 0;
+    color: var(--azul);
+    position: relative;
+    z-index: 2;
+}
+
+.TituloMarketing h2:hover {
+    color: var(--laranja);
+    cursor: pointer;
+
+    opacity: 1;
+    transition: all ease 0.5s;
+    filter: none;
+    transform: scale(1.0);
+}
+
+
+.ConteudoIdv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+}
+
+.TituloIdentidade h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    padding-bottom: 0;
+    color: var(--azul);
+    position: relative;
+    z-index: 2;
+}
+
+.TituloIdentidade h2:hover {
+    color: var(--laranja);
+    cursor: pointer;
+
+    opacity: 1;
+    transition: all ease 0.5s;
+    filter: none;
+    transform: scale(1.0);
+}
+
+.ContainerIdv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    width: auto;
+    height: auto;
+    gap: 20px;
+}
+
+iframe {
+    width: auto;
+    height: 200px;
+}

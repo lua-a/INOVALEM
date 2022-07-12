@@ -1,0 +1,23 @@
+.section-frase-landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    padding: 20px;
+}
+
+.frase-landing {
+    text-align: center;
+    font-size: 40px;
+    color: var(--laranja);
+    position: absolute;
+    opacity: 0.9;
+    font-weight: 200;
+}
+
+.imagem-aspas-frase-landing {
+    position: relative;
+    width: 520px;
+    opacity: 0.5;
+}

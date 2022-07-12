@@ -1,0 +1,70 @@
+.section-educacao-landing {
+    background: #fff;
+    width: 92%;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: -8px -8px 0px var(--azul);
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+    border-radius: 30px;
+}
+
+.div-educacao-landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo-educacao-landing {
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 23px;
+    color: var(--azul);
+}
+
+.p-titulo-educacao-landing {
+    color: var(--laranja);
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cards-educacao-landing {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 55px;
+    flex-wrap: wrap;
+    overflow-x: visible;
+}
+
+.card-educacao-landing {
+    background: var(--azul);
+    padding: 20px;
+    width: 270px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    box-shadow: -8px -8px 0px var(--laranja);
+}
+
+.card-educacao-landing:hover {
+    box-shadow: -15px -15px 0px var(--laranja);
+}
+
+.h3-card-educacao-landing {
+    color: #fff;
+    font-size: 32px;
+}
+
+.p-card-educacao-landing {
+    color: var(--branco);
+    font-size: 20px;
+}

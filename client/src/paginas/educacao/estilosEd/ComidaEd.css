@@ -1,0 +1,115 @@
+.secaoTxtComida {
+    background-image: none;
+}
+
+.txtBemVindoComida {
+    height: auto;
+}
+
+.txtBemVindoComida {
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+.txtBemVindoComida {
+    margin-top: 15px;
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 2;
+    color: var(--azul);
+    text-align: center;
+}
+
+
+.containerExplicacaoComida {
+    width: auto;
+}
+
+.containerExplicacaoComida {
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    display: flex;
+}
+
+.txtexpliComida {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--laranja);
+    text-align: center;
+}
+
+
+.ConteudoComida {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+}
+
+.TituloComida h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    padding-bottom: 0;
+    color: var(--azul);
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.TituloComida h2:hover {
+    color: var(--laranja);
+    cursor: pointer;
+
+    opacity: 1;
+    transition: all ease 0.5s;
+    filter: none;
+    transform: scale(1.0);
+}
+
+.ContainerComida {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.CardDeComida {
+    text-align: center;
+    transition: all ease-in-out 0.3s;
+    border-radius: 10px;
+    margin-top: 10px;
+    border-radius: 10px 10px 1px 0px;
+}
+
+.CardDeComida:hover {
+    cursor: pointer;
+    opacity: 1;
+    transition: all ease 0.2s;
+    filter: none;
+    transform: scale(1.1);
+}
+
+
+.ConteudoComida {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+}
+
+iframe {
+    width: auto;
+    height: 200px;
+}

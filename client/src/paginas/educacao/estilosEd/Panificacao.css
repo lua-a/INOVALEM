@@ -1,0 +1,167 @@
+ .secaoTxtPanificacao {
+     background-image: none;
+ }
+
+ .txtBemVindoPanificacao {
+     height: auto;
+ }
+
+ .txtBemVindoPanificacao {
+     letter-spacing: 2px;
+     font-size: 15px;
+ }
+
+ .txtBemVindoPanificacao {
+     margin-top: 15px;
+     font-size: 45px;
+     font-weight: 600;
+     letter-spacing: 2;
+     color: var(--azul);
+     text-align: center;
+ }
+
+ .txtexpliPanificacao {
+     font-size: 20px;
+     font-weight: 400;
+     color: var(--laranja);
+     padding-left: 10px;
+ }
+
+ .containerExplicacaoPanificacao {
+     width: auto;
+ }
+
+ .containerExplicacaoPanificacao {
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     margin-bottom: 60px;
+ }
+
+ .ConteudoPanificacao {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     margin-top: 15px;
+     width: auto;
+     height: auto;
+     flex-direction: column;
+ }
+
+ .ContainerPanificacao {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     gap: 30px;
+ }
+
+ .ContainerPanificacao {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     margin-top: 15px;
+     width: auto;
+     height: auto;
+ }
+
+ .TituloPanificacao h2 {
+     font-size: 32px;
+     font-weight: 700;
+     text-transform: uppercase;
+     margin-bottom: 15px;
+     padding-bottom: 0;
+     color: var(--azul);
+     position: relative;
+     z-index: 2;
+ }
+
+ .TituloPanificacao h2:hover {
+     color: var(--laranja);
+     cursor: pointer;
+
+     opacity: 1;
+     transition: all ease 0.5s;
+     filter: none;
+     transform: scale(1.0);
+ }
+
+
+ .ConteudoIdv {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     margin-top: 15px;
+     width: auto;
+     height: auto;
+     flex-direction: column;
+ }
+
+ .TituloSalgado h2 {
+     font-size: 32px;
+     font-weight: 700;
+     text-transform: uppercase;
+     margin-bottom: 15px;
+     padding-bottom: 0;
+     color: var(--azul);
+     position: relative;
+     z-index: 2;
+     margin-top: 10px;
+ }
+
+ .TituloSalgado h2:hover {
+     color: var(--laranja);
+     cursor: pointer;
+
+     opacity: 1;
+     transition: all ease 0.5s;
+     filter: none;
+     transform: scale(1.0);
+ }
+
+
+
+ .ContainerSalgado {
+     display: flex;
+ }
+
+ .ImagemDoCardPrevias {
+     position: relative;
+     height: 130px;
+     width: 245px;
+     border-radius: 12px 12px 12px 12px;
+
+ }
+
+ .CardDePanificacao {
+     text-align: center;
+     transition: all ease-in-out 0.3s;
+     border-radius: 10px;
+     margin-top: 10px;
+     border-radius: 10px 10px 1px 0px;
+ }
+
+ .CardDePanificacao:hover {
+     cursor: pointer;
+     opacity: 1;
+     transition: all ease 0.2s;
+     filter: none;
+     transform: scale(1.1);
+     width: 300px;
+ }
+
+ .ContainerSalgado {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+ }
+
+ iframe {
+     width: auto;
+     height: 200px;
+ }

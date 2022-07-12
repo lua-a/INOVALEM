@@ -1,0 +1,57 @@
+.section-investimento-landing {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 50px;
+    box-shadow: 8px 0px var(--laranja),
+        -8px 0px var(--laranja);
+    border-radius: 30px;
+    border: 1px solid var(--laranja);
+}
+
+.div-investimento-landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.titulo-investimento-landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: var(--laranja);
+}
+
+.titulo-investimento-landing span {
+    color: var(--azul);
+    margin: 0 8px;
+}
+
+.imagem-cardbusiness {
+    width: 200px;
+}
+
+.p-investimento-landing {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.botao-inscrever-investimento-landing {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    position: static;
+}
+
+.breve {
+    color: rgba(0, 0, 0, 0.116);
+}

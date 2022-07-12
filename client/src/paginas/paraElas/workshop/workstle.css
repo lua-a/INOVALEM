@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700&family=Orbitron:wght@400;500;600&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.container-workshop {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  margin-top: 30px;
+
+}
+
+.headerWorkshop {
+  height: 60px;
+  background-color: var(--branco);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.logo-paraelas {
+  width: 130px;
+}
+
+.filas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.txt-inicio {
+  font-size: 40px;
+  font-family: 'poppins', sans-serif;
+  color: var(--roxo);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.spanTxtTitulo-workshop {
+  color: var(--laranja);
+}
+
+.txt-inicio-dois {
+  font-size: 20px;
+  text-align: center;
+  padding-left: 2%;
+}
+
+.form-cor {
+
+  background-color: var(--roxo);
+  margin-top: 4%;
+  width: 90%;
+  display: flex;
+  height: auto;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 37px;
+  display: flex;
+}
+
+.mulher {
+  width: 400px;
+  margin-bottom: 300px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.p-explicacaoForms {
+  color: var(--branco);
+  font-size: 13px;
+  margin-top: -300px;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+.txt-direita {
+  background: var(--branco);
+  text-align: right;
+  padding: 30px;
+  width: 80%;
+}
+
+.txt-dentro-fomulario {
+  text-align: center;
+  margin-top: 1%;
+  color: var(--roxo);
+  font-size: 20px;
+}
+
+.registro-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+}
+
+
+
+.form-txt {
+  font-size: 15px;
+  text-align: left;
+  background-color: var(--branco);
+  border: none;
+  display: block;
+
+}
+
+.form-group {
+  width: 100%;
+  margin-top: 40px;
+  position: relative;
+  border-bottom: 2px solid var(--roxo);
+  outline: 0;
+
+}
+
+
+.form-group {
+  position: relative;
+
+}
+
+.input-registro {
+
+  font-size: 15px;
+  color: var(--laranja);
+  line-height: 1.2;
+  border: none;
+  display: block;
+
+  width: 100%;
+  height: 60px;
+  background-color: var(--branco);
+  padding: 2 5px;
+  margin-top: 4px;
+  outline: 0;
+}
+
+.foco-input-registro {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  top: 0;
+  left: 0;
+  pointer-events: none;
+
+}
+
+.foco-input-registro::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+
+}
+
+.foco-input-registro::after {
+  font-size: 15px;
+  color: var(--laranja);
+  line-height: 1;
+
+  content: attr(data-placeholder);
+
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  padding-left: 5px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.input-registro:focus+.foco-input-registro::after {
+  top: -2px;
+}
+
+.has-val+.foco-input-registro::after {
+  top: -2px;
+}
+
+
+
+.container-btn-registro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 13px;
+}
+
+.botao-registro {
+  background-color: var(--laranja);
+  color: var(--branco);
+  padding: 9px 60px;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+.botao-registro:hover {
+  background-color: var(--roxo);
+  cursor: pointer;
+  opacity: 1;
+  transition: background-color .5s ease;
+
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.textImg {
+  display: flex;
+  flex-direction: column;
+}
+
+.branco {
+  color: white;
+  padding: 20px;
+}

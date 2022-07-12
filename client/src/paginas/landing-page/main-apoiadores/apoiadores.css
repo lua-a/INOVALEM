@@ -1,0 +1,47 @@
+.div-h2 {
+    display: flex;
+    justify-content: center;
+    color: var(--azul);
+    margin-top: 20px;
+}
+
+.section-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-cards img {
+    width: 130px;
+}
+
+.card {
+    background: var(--branco);
+    width: 180px;
+    height: 120px;
+    border-radius: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card:hover {
+    background: rgba(0, 0, 0, 0.116);
+    cursor: pointer;
+}
+
+.div-slogan-landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+}
+
+.hr-slogan-landing {
+    height: 15px;
+    border: 0;
+    background-color: var(--branco);
+    margin-top: 55px;
+}

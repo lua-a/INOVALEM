@@ -1,0 +1,97 @@
+.secaoTxtMei {
+    background-image: none;
+}
+
+.txtBemVindoMei {
+    height: auto;
+}
+
+.txtBemVindoMei {
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+.txtBemVindoMei {
+    margin-top: 15px;
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 2;
+    color: var(--azul);
+    text-align: center;
+}
+
+.ConteudoMei {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+}
+
+.TituloMei h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    padding-bottom: 0;
+    color: var(--azul);
+    position: relative;
+    z-index: 2;
+}
+
+.TituloMei h2:hover {
+    color: var(--laranja);
+    cursor: pointer;
+
+    opacity: 1;
+    transition: all ease 0.5s;
+    filter: none;
+    transform: scale(1.0);
+}
+
+.ContainerMei {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.CardMei {
+    text-align: center;
+    transition: all ease-in-out 0.3s;
+    border-radius: 10px;
+    margin-top: 10px;
+    border-radius: 10px 10px 1px 0px;
+}
+
+.CardMei:hover {
+    cursor: pointer;
+    opacity: 1;
+    transition: all ease 0.2s;
+    filter: none;
+    transform: scale(1.1);
+}
+
+
+.ContainerImg {
+    display: flex;
+    justify-content: center;
+}
+
+
+iframe {
+    width: auto;
+    height: 200px;
+}
+
+.ContainerMei {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

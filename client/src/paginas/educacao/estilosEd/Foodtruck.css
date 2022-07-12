@@ -1,0 +1,115 @@
+.secaoTxtFoodtruck {
+    background-image: none;
+}
+
+.txtBemVindoFoodtruck {
+    height: auto;
+    padding: 24px 0;
+}
+
+.txtBemVindoFoodtruck {
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+.txtBemVindoFoodtruck {
+    margin-top: 15px;
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 2;
+    color: var(--azul);
+    text-align: center;
+}
+
+.txtexpliFoodtruck {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--laranja);
+    text-align: center;
+}
+
+.containerExplicacaoFoodtruck {
+    width: auto;
+}
+
+.containerExplicacaoFoodtruck {
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    display: flex;
+}
+
+.ConteudoFoodtruck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+}
+
+.ContainerFoodtruck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.ContainerFoodtruck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    width: auto;
+    height: auto;
+}
+
+.TituloFoodtruck h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    padding-bottom: 0;
+    color: var(--azul);
+    position: relative;
+    z-index: 2;
+}
+
+.TituloFoodtruck h2:hover {
+    color: var(--laranja);
+    cursor: pointer;
+
+    opacity: 1;
+    transition: all ease 0.5s;
+    filter: none;
+    transform: scale(1.0);
+}
+
+.CardDeFoodtruck {
+    text-align: center;
+    transition: all ease-in-out 0.3s;
+    border-radius: 10px;
+    margin-top: 10px;
+    border-radius: 10px 10px 1px 0px;
+}
+
+.CardDeFoodtruck:hover {
+    cursor: pointer;
+    opacity: 1;
+    transition: all ease 0.2s;
+    filter: none;
+    transform: scale(1.1);
+}
+
+.CardDeFoodtruck:hover {
+    width: 300px;
+}
+
+iframe {
+    width: auto;
+    height: 200px;
+}
